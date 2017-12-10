@@ -31,7 +31,7 @@ Title.defaultProps = {
 
 Title.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOf['small', 'medium', 'large'],
+  size: PropTypes.oneOf(['small', 'medium', 'large']),
   children: PropTypes.node.isRequired,
 }
 
