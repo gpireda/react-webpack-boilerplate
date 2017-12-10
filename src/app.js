@@ -1,5 +1,6 @@
 import React from 'react'
+import Title from './components/Title'
 
-const App = () => <h1>App</h1>
+const App = () => <Title>App</Title>
 
 export default App
